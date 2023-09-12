@@ -147,3 +147,23 @@ for(int j= 1; j < 20; j++)
 }
 Console.WriteLine($"The sum is {sum}");
 
+//break 
+ for (int i = 0; i < 10; i++)
+ {
+     if (i == 4)
+     {
+         break;
+     }
+     Console.WriteLine(i);
+ } 
+
+//continue
+ for (int i = 0; i < 10; i++)
+  {
+      if (i == 4)
+      {
+          continue;
+      }
+      Console.WriteLine(i);
+  } 
+
