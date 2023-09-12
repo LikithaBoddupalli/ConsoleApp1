@@ -115,6 +115,24 @@ double radius = 2.50;
 double area = Math.PI * radius * radius;
 Console.WriteLine(area);
 
+ //comparison operator
+ var a = 10;
+ var b = 20;
+ Console.WriteLine(a != b);
+ Console.WriteLine(b <= a);
+ Console.WriteLine(b > a);
+ Console.WriteLine(b == a);
+
+//Assignment Operator
+var a = 10;
+Console.WriteLine(a+=5);
+var b = 20;
+Console.WriteLine(b-=2);
+var c = 30;
+Console.WriteLine(c*=3);
+var d = 50;
+Console.WriteLine(d/=2);
+
 
 
 
