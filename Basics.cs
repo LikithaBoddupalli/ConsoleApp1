@@ -123,6 +123,13 @@ Console.WriteLine(area);
  Console.WriteLine(b > a);
  Console.WriteLine(b == a);
 
+ //logical operator
+ var a = 10;
+ var b = 20;
+ Console.WriteLine(a < b && a!=b);
+ Console.WriteLine(a < b && a==b);
+ Console.WriteLine(a == b || a<=b);
+ Console.WriteLine(a >= b || a==b);
 //Assignment Operator
 var a = 10;
 Console.WriteLine(a+=5);
