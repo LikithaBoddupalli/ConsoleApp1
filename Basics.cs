@@ -147,6 +147,11 @@ namespace CSharp
               Console.WriteLine(c*=3);
               var d = 50;
               Console.WriteLine(d/=2);
+
+            //ternary operator
+            int time = 20;
+            string result = (time < 18) ? "Good day." : "Good evening.";
+            Console.WriteLine(result);
         }
     }
 }
