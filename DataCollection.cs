@@ -126,6 +126,9 @@ namespace CSharp
                     Console.WriteLine(arrays[i,j]);
                 }
             }
+
+            //Methods
+            
          }
     }
 }
