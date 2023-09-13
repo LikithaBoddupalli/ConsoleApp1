@@ -21,8 +21,6 @@ namespace CSharp
     }
 }
 
-
-
 //Constructors  with parameters
 namespace CSharp
 { 
@@ -54,3 +52,36 @@ namespace CSharp
     }
 
 }
+
+//Example-3
+using System;
+
+public class Vehicle
+        {
+            public string Type;
+            public int NumTires;
+            public int year;
+            public bool runs;
+            public Vehicle(string Type,int NumTires,int year,bool runs)
+            {
+                this.Type = Type;
+                this.NumTires = NumTires;
+                this.year = year;
+                this.runs = runs;
+            }
+}
+    public class MainClass
+    {
+   
+            static void Main(String[] args)
+            {
+                Vehicle car = new Vehicle("car",4,2000,true);
+                Vehicle oldcar = new Vehicle("car",4,1980,false);
+                Vehicle bike = new Vehicle("bike",2,2017,true);
+                        
+                Console.WriteLine(car.Type);
+                Console.WriteLine(oldcar.runs);
+                Console.WriteLine(bike.NumTires);
+            }
+    }
+
