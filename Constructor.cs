@@ -54,9 +54,9 @@ namespace CSharp
 }
 
 //Example-3
-using System;
-
-public class Vehicle
+namespace Csharp
+{
+       public class Vehicle
         {
             public string Type;
             public int NumTires;
@@ -84,4 +84,3 @@ public class Vehicle
                 Console.WriteLine(bike.NumTires);
             }
     }
-
